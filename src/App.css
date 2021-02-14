@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.desc {
+  font-size: small;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.label {
+  font-weight: bolder;
+  padding: 5px;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 30%;
+}
+
+.column.input {
+  width: 40%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.text-input {
+  padding: 8px;
+  margin: 0px;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  font-family: Helvetica, sans-serif;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.submitSuccess {
+  color: royalblue;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.error {
+  color: #0064a4;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.box {
+  width: 75%;
+  padding: 50px;
+  border: 5px solid #ffd200;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 8px #0064a4;
+  background-color: aliceblue;
+  margin: 0;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button {
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  border: 0px solid #eee;
+  background-color: #1b3d6d;
+  color: white;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  border: 0px solid #eee;
+  background-color: #ffd200;
+  color: white;
+}
