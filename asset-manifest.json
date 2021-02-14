@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zotmatch/static/css/main.7b105dae.chunk.css",
-    "main.js": "/zotmatch/static/js/main.0ae7133d.chunk.js",
-    "main.js.map": "/zotmatch/static/js/main.0ae7133d.chunk.js.map",
-    "runtime-main.js": "/zotmatch/static/js/runtime-main.c86c6f8d.js",
-    "runtime-main.js.map": "/zotmatch/static/js/runtime-main.c86c6f8d.js.map",
-    "static/js/2.5ccf59f0.chunk.js": "/zotmatch/static/js/2.5ccf59f0.chunk.js",
-    "static/js/2.5ccf59f0.chunk.js.map": "/zotmatch/static/js/2.5ccf59f0.chunk.js.map",
-    "static/js/3.7bbe2dbb.chunk.js": "/zotmatch/static/js/3.7bbe2dbb.chunk.js",
-    "static/js/3.7bbe2dbb.chunk.js.map": "/zotmatch/static/js/3.7bbe2dbb.chunk.js.map",
-    "index.html": "/zotmatch/index.html",
-    "static/css/main.7b105dae.chunk.css.map": "/zotmatch/static/css/main.7b105dae.chunk.css.map",
-    "static/js/2.5ccf59f0.chunk.js.LICENSE.txt": "/zotmatch/static/js/2.5ccf59f0.chunk.js.LICENSE.txt"
+    "main.css": "/zotMatch/static/css/main.7b105dae.chunk.css",
+    "main.js": "/zotMatch/static/js/main.0ae7133d.chunk.js",
+    "main.js.map": "/zotMatch/static/js/main.0ae7133d.chunk.js.map",
+    "runtime-main.js": "/zotMatch/static/js/runtime-main.c86c6f8d.js",
+    "runtime-main.js.map": "/zotMatch/static/js/runtime-main.c86c6f8d.js.map",
+    "static/js/2.5ccf59f0.chunk.js": "/zotMatch/static/js/2.5ccf59f0.chunk.js",
+    "static/js/2.5ccf59f0.chunk.js.map": "/zotMatch/static/js/2.5ccf59f0.chunk.js.map",
+    "static/js/3.7bbe2dbb.chunk.js": "/zotMatch/static/js/3.7bbe2dbb.chunk.js",
+    "static/js/3.7bbe2dbb.chunk.js.map": "/zotMatch/static/js/3.7bbe2dbb.chunk.js.map",
+    "index.html": "/zotMatch/index.html",
+    "static/css/main.7b105dae.chunk.css.map": "/zotMatch/static/css/main.7b105dae.chunk.css.map",
+    "static/js/2.5ccf59f0.chunk.js.LICENSE.txt": "/zotMatch/static/js/2.5ccf59f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c86c6f8d.js",
