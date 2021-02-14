@@ -106,8 +106,9 @@
 .body{
   display: flex;
   justify-content: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-top: 1.5%;
+  padding-left: 30%;
+  padding-right: 30%;
   /* align-items: center; */
 }
 .error {
@@ -119,8 +120,6 @@
 
 .box {
   display: inline-block;
-  padding-left: 10%;
-  padding-right: 10%;
   padding: 50px;
   border: 5px solid #ffd200;
   border-radius: 10px;
@@ -154,13 +153,7 @@
   display: flex;
   justify-content: center;
 }
-.submissionArea{
-  display: ;
-  flex-direction: column;
-  justify-content: center;
 
-      
-}
 .button:focus {
   outline: none;
 }
@@ -183,3 +176,22 @@
     padding-top: 2%;
   }
 }
+@media only screen and (max-width: 1600px) and (min-width: 600px) {
+  .body{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+  }
+}
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1800px) {
+  .body{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+  }
+} */

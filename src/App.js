@@ -39,10 +39,10 @@ const App = () => {
               {image}
               <h1>ZotMatch 💙 💛</h1>
               <p class="desc">
-                hi there! we built this app to help anteaters find love or
-                friendship during quarantine. enter the full names of 3 uci
+                Hi there! We built ZotMatch to help anteaters find love or
+                friendship during quarantine. Enter the full names of 3 UCI
                 students you'd like to get to know better, and if they like you
-                back you'll be matched via email! good luck and shoot your zot! 🥺
+                back you'll be matched via email! Good luck and shoot your zot! 🥺
               </p>
               <ZotForm />
             </div>
