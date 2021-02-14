@@ -78,16 +78,6 @@ export default function ZotForm() {
             name: values.firstName + " " + values.lastName,
             major: values.major
           }
-          // verify existing
-          /*
-          const foundUser = await axios.get(`https://ov7mtcvxm5.execute-api.us-east-1.amazonaws.com/dev/users/${payload.email}`)
-          console.log('Found',foundUser)
-          if (foundUser.data){
-            await axios.put(`https://ov7mtcvxm5.execute-api.us-east-1.amazonaws.com/dev/users/${payload.id}`, payload)
-            setDuplicate(true)
-            return
-          }
-          */
           await axios.post('https://ov7mtcvxm5.execute-api.us-east-1.amazonaws.com/dev/users',payload)
           resetForm();
           setSubmitting(false);
@@ -98,11 +88,12 @@ export default function ZotForm() {
     >
       {(props) => (
         
-        <Form>
+        <Form class = "form">
           <div class="row">
+            <div class ="name">
             <div class="column input">
               <div class="label">
-              first
+              First
               </div>
               <CustomTextInput
               name="firstName"
@@ -112,7 +103,7 @@ export default function ZotForm() {
             </div>
             <div class="column input">
               <div class="label">
-              last
+              Last
               </div>
               <CustomTextInput
               name="lastName"
@@ -120,36 +111,25 @@ export default function ZotForm() {
               placeholder="anteater"
               />
             </div>
+            </div>
           </div>
           <div class="row">
             <div class="column input">
               <div class="label">
-              email
+              Email
               </div>
-              <CustomTextInput
+              <CustomTextInput 
                   name="email"
                   type="email"
                   placeholder="anteater@uci.edu"
-                  size="50"
+                  
                   />
             </div>
           </div>
           <div class="row">
-      {/*
             <div class="column input">
-              <CustomDropDown name="year">
-                <option value="" disabled selected>year</option>
-                <option value="First Year">freshman</option>
-                <option value="Second Year">sophomore</option>
-                <option value="Third Year">junior</option>
-                <option value="Fourth Year">senior</option>
-                <option value="Other">Other</option>
-              </CustomDropDown>
-            </div>
-      */}
-            <div class="column side">
               <div class="label">
-              major
+              Major
               </div>
               <CustomTextInput
                   name="major"
@@ -161,22 +141,22 @@ export default function ZotForm() {
           <div class="row">
             <div class="column input">
             <div class="label">
-              enter full names
+              Enter Full Names
               </div>
-              <CustomTextInput name="studentOne" type="text" placeholder="sarah anteater" size="50"/>
+              <CustomTextInput name="studentOne" type="text" placeholder="sarah anteater"/>
             </div>
           </div>
           <div class="row">
             <div class="column input">
-              <CustomTextInput name="studentTwo" type="text" placeholder="oski bear"size="50"/>
+              <CustomTextInput name="studentTwo" type="text" placeholder="oski bear"/>
             </div>
           </div>
           <div class="row">
             <div class="column input">
-              <CustomTextInput name="studentThree" type="text" placeholder="sammy slug" size="50"/>
+              <CustomTextInput name="studentThree" type="text" placeholder="sammy slug" />
             </div>
           </div>
-
+          <div class="submitButton">
           <div class="row">
           <div class="column side"/>
           <div class="column middle">
@@ -202,6 +182,7 @@ export default function ZotForm() {
               :
               ""
           }
+          </div>
         </Form>
         
       )}
