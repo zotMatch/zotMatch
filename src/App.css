@@ -154,7 +154,13 @@
   display: flex;
   justify-content: center;
 }
+.submissionArea{
+  display: ;
+  flex-direction: column;
+  justify-content: center;
 
+      
+}
 .button:focus {
   outline: none;
 }

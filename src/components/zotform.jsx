@@ -156,13 +156,14 @@ export default function ZotForm() {
               <CustomTextInput name="studentThree" type="text" placeholder="sammy slug" />
             </div>
           </div>
-          <div class="submitButton">
+         
           <div class="row">
           <div class="column side"/>
           <div class="column middle">
+          <div class="submitButton">
             <button type="submit" class="button">submit</button>
           </div>
-          
+          </div>
           </div>
           {
             duplicate ?
@@ -182,7 +183,7 @@ export default function ZotForm() {
               :
               ""
           }
-          </div>
+         
         </Form>
         
       )}
